@@ -1,4 +1,4 @@
-@import url()
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
 
 /* This 
 is 
@@ -40,7 +40,7 @@ figcaption {
   text-shadow: 0 2px 3px #000;
 }
 
-/* ID selector (apply to one unique element per page)*/
+/* ID selector (apply to one unique element per page) */
 
 #logo { /* selects elements with id="logo" */
 background: aqua;  
@@ -70,3 +70,5 @@ background: aqua;
 #details a:active {
   color: red;
 }
+
+
