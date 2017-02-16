@@ -1,32 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
 
-/* This 
-is 
-a comment! */
-
-/* CSS Syntax:
- 
-  selector {
-  property:value;
-  property:value;
-}
-
-*/
-
-
-/* Type selector: */
-
 p { /* select all <p> */
-  font-size: 1em; /* 16px, ?pt, 100%, or 1em (em = width of m, usually 16 pixels, different for each font)) */
+  font-size: 1em; 
   line-height: 1.5em;  
 }
 
 figcaption {
-/*  font-weight: normal;
-  font-size: 0.75em;
-  line-height: 1.5em;
-  font-family: Georgia, "New Times Roman", serif;
-  Same as below using generic 'font' property: */
   font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
   color: #777;
   text-align: right;
@@ -68,7 +47,5 @@ background: aqua;
 }
 
 #details a:active {
-  color: red;
+  color: blue;
 }
-
-
