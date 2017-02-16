@@ -11,30 +11,22 @@ figcaption {
   text-align: right;
 }
 
-/* Class Selector (applied to as many elements as you like) */
-
-.milk-text {/* select elements with class="milk-text" */
-  font: bold 2.6em 'Elsie Swash Caps', cursive;
+.milk-text {
+  font: bold 3em 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
 }
 
-/* ID selector (apply to one unique element per page) */
-
-#logo { /* selects elements with id="logo" */
+#logo { 
 background: aqua;  
 }
 
-/* Descendent Selector */
-
-#logo h1 { /* Selects h1 if inside the id="logo" element */
+#logo h1 { 
   font-family: 'Clicker Script', cursive;
 }
 #logo h2 { 
   font-family: 'Elsie Swash Caps', cursive;
 }
-
-/* Pseudo selectors */ 
 
 #details a:link, a:visited {
   color:black;
@@ -49,3 +41,11 @@ background: aqua;
 #details a:active {
   color: blue;
 }
+
+
+
+
+
+
+
+
