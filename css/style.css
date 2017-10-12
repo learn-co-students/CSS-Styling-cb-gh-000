@@ -1,0 +1,17 @@
+p  {
+  font-size: 1 em;
+  line-height: 1.5em;
+
+}
+
+figcaption {
+  font: normal 0.75/1.75 Georgia, "New Times Roman";
+  color: #777;
+  text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em Georgia, "New Times Roman";
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
