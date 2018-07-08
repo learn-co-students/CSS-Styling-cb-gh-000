@@ -41,7 +41,7 @@ figcaption {
 
 #details a:link, #details a:visited {
     color: black;
-    text-decoration: node;
+    text-decoration: none;
 
 }
 
