@@ -1,0 +1,74 @@
+
+@font-face {
+font-family: 'Elsie Swash Caps';
+src:
+    local('ElsieSwashCaps-Regular'),
+    url('ElsieSwashCaps-Regular.woff2');
+}
+
+@font-face {
+font-family: 'Clicker Script';
+src:
+    local('Clicker-Script'),
+    url('Clicker-Script.woff2');
+}
+
+/*
+  This is a comment
+*/
+
+/* CSS Syntax */
+selector {
+  property: value;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Elsie Swash Caps', cursive;
+  /* Georgia, "New Times Roman", serif; */
+  color: #777;
+  text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+
+#logo {
+  background-color: aqua;
+}
+
+ /* descendent selector - selects h1 of parent element with id of #logo */
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* compound selector - applies the style to both selectors */
+#details a:link , #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+
+}
