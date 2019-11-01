@@ -1,0 +1,68 @@
+/* External CSS Libraries */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/* Custom Fonts */
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900');
+
+/* This is a comment! */
+
+/* CSS Syntax:
+
+selector{
+  property: value;
+  property: value;
+}
+
+*/
+
+/* Type Selector */
+
+/* Select all <p> */
+p{
+  font-size: 1em; /*16px, ?pt, 100%, 1em */
+  line-height: 1.5em;
+}
+
+figcaption{
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Elsie Swash Caps', cursive;
+  /*font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;*/
+  color: #777;
+  text-align: right;
+}
+
+/* Class Selector (Applied to as many elements as you like) */
+.milk-text{
+  /* Select elements with class="milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID Selector (Apply to one unique element per page) */
+#logo{
+  /* Select the element with id="logo" */
+  background-color: aqua;
+}
+
+/* Descendent Selector */
+#logo h1{
+  font-family: 'Clicker Script',cursive;
+}
+#logo h2{
+  font-family: 'Elsie Swash Caps',cursive;
+}
+
+/* Pseudo Selector */
+#details a:link, #details a:visited{
+  color: black;
+  text-decoration: none;
+}
+#details a:hover{
+  text-decoration: underline;
+}
+#details a:active{
+  color: red;
+}
