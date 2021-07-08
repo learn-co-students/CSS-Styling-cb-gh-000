@@ -1,0 +1,49 @@
+/*A Comment!*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/*Element selector*/
+figcaption {
+  font-weight: normal;
+  font-size: .75em;
+  line-height: 1.5em;
+  font-family: 'Open Sans', cursive;
+  color: #777;
+  text-align: right;
+}
+
+/*Class selector*/
+.milk-text {
+  font: bold 2.6em "Open Sans", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/*ID Selector*/
+#logo {
+  background-color: aqua
+}
+
+/*Descendent selector*/
+#logo h1 { /*styles h1 inside (even as a grand child) element with id="logo"*/
+  font-family: "Droid Sans", sans-serif;
+}
+
+#logo h2 {
+  font-family: "Open Sans", serif;
+}
+
+/*Pseudo-class selector*/
+#details a:visited {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
